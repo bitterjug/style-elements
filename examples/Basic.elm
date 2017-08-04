@@ -110,7 +110,7 @@ which you can think of as Html with layout, positioning, and spacing built in.
 
 -}
 view _ =
-    Element.root stylesheet <|
+    Element.layout stylesheet <|
         column None
             []
             [ navigation
